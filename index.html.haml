@@ -1,0 +1,91 @@
+!!!
+%html
+  %head
+    %meta{:content => "text/html;charset=utf-8", "http-equiv" => "Content-Type"}
+    %title Comic Book Day for iPhone and iPod touch
+    %link{:href => "style.css", :rel => "stylesheet", :type => "text/css"}
+    %link{:href => "http://www.studioamanga.com/img/favicon.ico", :rel => "shortcut icon"}
+    %link{:href => "../img/touch-icon-iphone4.png", :rel => "apple-touch-icon-precomposed"}
+    %link{:href => "../img/touch-icon-ipad.png", :rel => "apple-touch-icon-precomposed", :sizes => "72x72"}
+    %meta{:content => "Studio AMANgA is an independant website/app producer.", :name => "description"}
+    %meta{:content => "width=device-width", :name => "viewport"}
+    %meta{:content => "app-id=788312005", :name => "apple-itunes-app"}
+    :javascript
+      var _gaq = _gaq || [];
+      _gaq.push(['_setAccount', 'UA-18279263-1']);
+      _gaq.push(['_trackPageview']);
+      (function() {
+        var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+        ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+        var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+      })();
+    :javascript
+      currentScreenshotIndex = 1;
+      previousScreenshot = null;
+      setInterval(alternateScreenshots, 5000);
+      
+      function alternateScreenshots()
+      {
+        newScreenshot = document.getElementById('screen'+currentScreenshotIndex);
+        if (previousScreenshot)
+          previousScreenshot.style.opacity = '0';
+        newScreenshot.style.opacity = '1';
+        previousScreenshot = newScreenshot;
+        currentScreenshotIndex ++;
+        if (currentScreenshotIndex > 4) 
+          currentScreenshotIndex = 1;
+      }
+  %body
+    %header.general
+      %nav
+        %ul
+          %li
+            %a{:href => "http://www.studioamanga.com/"}
+              %img{:alt => "StdAMG", :src => "img/icon-amg.png"}
+              %span Studio AMANgA
+          %li
+            %a{:href => "http://www.studioamanga.com/news.html"}
+              %img{:alt => "Feed", :src => "img/icon-feed.png"}
+              %span News
+          %li
+            %a{:href => "http://www.studioamanga.com/contacts/"}
+              %img{:alt => "Contacts", :src => "img/icon-contacts.png"}
+              %span Contact[s]
+          %li
+            %a{:href => "http://www.studioamanga.com/onelist/"}
+              %img{:alt => "1List", :src => "img/icon-onelist.png"}
+              %span 1List
+          %li
+            %a{:href => "http://www.studioamanga.com/wizbox/"}
+              %img{:alt => "WizBox", :src => "img/icon-wizbox.png"}
+              %span WizBox
+    %header.top
+      %img.icon{:alt => "Icon", :src => "img/Icon-72.png"}
+      %h1 Comic Book Day
+    %section#main
+      %section#screenshots
+        %img#screen0{:alt => "iPhone", :src => "img/iphone-5.png"}
+        %img#screen4{:alt => "Issue Screenshot", :src => "img/screen-4-ip5.png"}
+        %img#screen3{:alt => "Volume Screenshot", :src => "img/screen-3-ip5.png"}
+        %img#screen2{:alt => "Library Screenshot", :src => "img/screen-2-ip5.png"}
+        %img#screen1{:alt => "Reading List Screenshot", :src => "img/screen-1-ip5.png"}
+      %section#features
+        %header.insert
+          %img.icon{:alt => "Icon", :src => "img/Icon-72.png"}
+          %h1 Comic Book Day
+        %h2 Never miss a release of your favorite comic book.
+        %p “Comic Book Day” keeps track of the comic books you love. Simply manage your library, and receive a notification every time a new issue hits the stores. 
+        %p
+          %ul 
+            %li Import volumes directly from a database of more than 380,000 comic books, manga, and other international publications. 
+            %li Organize the comic books you’ve already read, and know what to read next. 
+            %li Share your favorite issues with your friends, and discover new books to love.
+        %h2{:style => "margin-top: 50px; font-style:italic;"} Available Soon
+        / %h2{:style => "margin-top: 50px; font-weight: bold; font-size: 2em;"}
+        /   %a{:href => "https://itunes.apple.com/app/games-keeper/id674138310"}
+        /     %img{:alt => "Download", :src => "img/download-appstore-225.png"}/
+    %footer
+      %a{:href => "http://www.studioamanga.com"}
+        %img{:alt => "StdAMG", :src => "img/amgmini-white.png"}/
+      %p
+        “Comic Book Day” for iPhone and iPod touch - Made by Studio AMANgA - 2013/2014
