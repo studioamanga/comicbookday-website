@@ -92,6 +92,7 @@ header {
           }
           img {
             margin-right: 4px;
+            border-radius: 4px;
           }
 
           &:HOVER {
@@ -166,7 +167,7 @@ section#features {
     li {
       position: relative;
       margin-bottom: 10px;
-      
+
       img {
         position :absolute;
         left: -32px;
@@ -210,14 +211,14 @@ footer {
   line-height: 1.2em;
   
   a {
-    color: #888;
+    color: white;
     text-decoration: none;
     
     img {
       opacity: 1;
     }
     &:HOVER {
-      color: #444;
+      text-decoration: underline;
       
       img {
         opacity: 1;
@@ -310,10 +311,6 @@ footer {
   }
   footer > * {
     text-align: left;
-  }
-  footer > a {
-    position: relative;
-    top: -8px;
   }
 }
 
