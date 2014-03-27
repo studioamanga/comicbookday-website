@@ -1,15 +1,15 @@
 !!!
-%html
+%html{:lang => "en"}
   %head
-    %meta{:content => "text/html;charset=utf-8", "http-equiv" => "Content-Type"}
+    %meta{:charset => "utf-8"}
     %title Comic Book Day for iPhone and iPod touch
     %link{:href => "style.css", :rel => "stylesheet", :type => "text/css"}
     %link{:href => "http://www.studioamanga.com/img/favicon.ico", :rel => "shortcut icon"}
     %link{:href => "../img/touch-icon-iphone4.png", :rel => "apple-touch-icon-precomposed"}
     %link{:href => "../img/touch-icon-ipad.png", :rel => "apple-touch-icon-precomposed", :sizes => "72x72"}
-    %meta{:content => "Studio AMANgA is an independant website/app producer.", :name => "description"}
-    %meta{:content => "width=device-width", :name => "viewport"}
-    %meta{:content => "app-id=788312005", :name => "apple-itunes-app"}
+    %meta{:name => "description",      :content => "Comic Book Day for iPhone. Never miss a release of your favorite comic book."}
+    %meta{:name => "viewport",         :content => "width=device-width"}
+    %meta{:name => "apple-itunes-app", :content => "app-id=788312005"}
     :javascript
       currentScreenshotIndex = 1;
       previousScreenshot = null;
