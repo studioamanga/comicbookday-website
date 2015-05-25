@@ -2,83 +2,86 @@
 %html{:lang => "en"}
   %head
     %meta{:charset => "utf-8"}
-    %title Comic Book Day for iPhone and iPod touch
-    %link{:rel => "stylesheet",    :href => "style.css?val", :type => "text/css"}
+    %title Comic Book Day for iPhone and iPad
+    %link{:rel => "stylesheet",    :href => "style.css?reboot", :type => "text/css"}
     %link{:rel => "shortcut icon", :href => "http://www.studioamanga.com/img/favicon.ico"}
     %link{:rel => "apple-touch-icon-precomposed", :href => "../img/touch-icon-iphone4.png"}
     %link{:rel => "apple-touch-icon-precomposed", :href => "../img/touch-icon-ipad.png", :sizes => "72x72"}
-    %meta{:name => "description",      :content => "Comic Book Day for iPhone and iPad. Never miss a release of your favorite comic book."}
+    %meta{:name => "description",      :content => "Comic Book Day. Never miss a release of your favorite comic book."}
     %meta{:name => "viewport",         :content => "width=device-width"}
     %meta{:name => "apple-itunes-app", :content => "app-id=788312005"}
-    :javascript
-      currentScreenshotIndex = 1;
-      previousScreenshot = null;
-      setInterval(alternateScreenshots, 5000);
-      
-      function alternateScreenshots()
-      {
-        newScreenshot = document.getElementById('screen'+currentScreenshotIndex);
-        if (previousScreenshot)
-          previousScreenshot.style.opacity = '0';
-        newScreenshot.style.opacity = '1';
-        previousScreenshot = newScreenshot;
-        currentScreenshotIndex ++;
-        if (currentScreenshotIndex > 4) 
-          currentScreenshotIndex = 1;
-      }
   %body
-    %header.general
-      %nav
-        %ul
-          %li
-            %a{:href => "http://www.studioamanga.com/"}
-              %img{:alt => "StdAMG", :src => "img/icon-amg.png?val"}
-              %span Studio AMANgA
-          %li
-            %a{:href => "http://www.studioamanga.com/contacts/"}
-              %img{:alt => "Contacts", :src => "img/icon-contacts.png?va"}
-              %span Contact[s]
-          %li
-            %a{:href => "http://www.studioamanga.com/onelist/"}
-              %img{:alt => "1List", :src => "img/icon-onelist.png?va"}
-              %span 1List
-          %li
-            %a{:href => "http://www.studioamanga.com/wizbox/"}
-              %img{:alt => "WizBox", :src => "img/icon-wizbox.png?va"}
-              %span WizBox
-    %header.top
-      %img.icon{:alt => "Icon", :src => "img/Icon-72-2x.png"}
-      %h1 Comic Book Day
-    %section#main
-      %section#screenshots
-        %img#screen0{:alt => "iPhone",                  :src => "img/iphone-5.png"}
-        %img#screen4{:alt => "Issue Screenshot",        :src => "img/screen-4-ip5.png"}
-        %img#screen3{:alt => "Volume Screenshot",       :src => "img/screen-3-ip5.png"}
-        %img#screen2{:alt => "Library Screenshot",      :src => "img/screen-2-ip5.png"}
-        %img#screen1{:alt => "Reading List Screenshot", :src => "img/screen-1-ip5.png"}
-      %section#features
-        %header.insert
-          %img.icon{:alt => "Icon", :src => "img/Icon-72-2x.png"}
-          %h1 Comic Book Day
-        %h2 Never miss a release of your favorite comic book.
-        %p “Comic Book Day” keeps track of the comic books you love. Simply manage your library, and receive a notification every time a new issue hits the stores. 
+    %nav.general
+      %ul
+        %li
+          %a{:href => "http://www.studioamanga.com/"}
+            %img{:alt => "StdAMG", :src => "img/icon-amg.png"}
+            %span Studio AMANgA
+        %li
+          %a{:href => "http://www.studioamanga.com/contacts/"}
+            %img{:alt => "Contacts", :src => "img/icon-contacts.png"}
+            %span Contact[s]
+        %li
+          %a{:href => "http://www.studioamanga.com/onelist/"}
+            %img{:alt => "1List", :src => "img/icon-onelist.png"}
+            %span 1List
+        %li
+          %a{:href => "http://www.studioamanga.com/gameskeeper/"}
+            %img{:alt => "Games Keeper", :src => "img/icon-gameskeeper.png"}
+            %span Games Keeper
+
+    %header.top.cropped-bottom
+      %div.title
+        %img.icon{:alt => "Icon", :src => "img/icon-72-2x.png"}
+        %h1 Comic Book Day
+      %div
+        %img.showcase{:alt => "Screens", :src => "img/screens.png"}
+
+    %section.main
+      %div.tagline
+        Never miss a release of your favorite comic book.
+      %div.feature
+        %h3 Notifications
+        %img{:src => "img/icon-star.png", :alt => "Star"}
+        %p 
+          Receive a notification every time a new issue comes out.
+      %div.feature
+        %h3 Keeping Track
+        %img{:src => "img/icon-star.png", :alt => "Star"}
         %p
-          %ul 
-            %li Import volumes directly from a database of more than 380,000 comic books, manga, and other international publications. 
-            %li Organize the comic books you’ve already read, and know what to read next. 
-            %li Share your favorite issues with your friends, and discover new books to love.
-        %p.download
-          %a{:href => "https://itunes.apple.com/app/comic-book-day/id788312005?mt=8"}
-            %img{:alt => "Download on the App Store", :src => "img/download-appstore.svg"}/
+          Organize the comic books you’ve already read, and know what to read next.
+      %div.feature
+        %h3 Library
+        %img{:src => "img/icon-star.png", :alt => "Star"}
+        %p 
+          Import volumes directly from a database of more than 380,000 comic books, manga, and other international publications.
+      %div.feature
+        %h3 For Comic Book Lovers
+        %img{:src => "img/icon-star.png", :alt => "Star"}
+        %p 
+          Share your favorite issues with your friends, and discover new books to love.
+
+      %p.download
+        %a{:href => "https://itunes.apple.com/app/comic-book-day/id788312005?mt=8"}
+          %img{:alt => "Download on the App Store", :src => "img/download-appstore.svg"}/
+
+    %div.screenshots
+      %img{:src => "img/screen-reading.png", :alt => "Star"}
+      %img{:src => "img/screen-volume.png", :alt => "Star"}
+      %img{:src => "img/screen-characters.png", :alt => "Star"}
+      %img{:src => "img/screen-alfred.png", :alt => "Star"}
+      %img{:src => "img/screen-credits.png", :alt => "Star"}
+      %img{:src => "img/screen-snyder.png", :alt => "Star"}
+
     %footer
       %a{:href => "http://www.studioamanga.com"}
-        %img{:alt => "StdAMG", :src => "img/amgmini-white.png?val"}/
+        %img{:alt => "StdAMG", :src => "img/amgmini-black.png"}/
       %p
         “Comic Book Day” for iPhone, iPad, and iPod touch
         %br
         %a{:href => "releasenotes"} Release Notes
         \/
-        %a{:href => "http://www.studioamanga.com/comicbookday/comicbookday-presskit.zip"} PressKit
+        %a{:href => "comicbookday-presskit.zip"} PressKit
         %br
         Made by Studio AMANgA 2014-2015
     

@@ -2,106 +2,109 @@
 <html lang='en'>
   <head>
     <meta charset='utf-8'>
-    <title>Comic Book Day for iPhone and iPod touch</title>
-    <link href='style.css?val' rel='stylesheet' type='text/css'>
+    <title>Comic Book Day for iPhone and iPad</title>
+    <link href='style.css?reboot' rel='stylesheet' type='text/css'>
     <link href='http://www.studioamanga.com/img/favicon.ico' rel='shortcut icon'>
     <link href='../img/touch-icon-iphone4.png' rel='apple-touch-icon-precomposed'>
     <link href='../img/touch-icon-ipad.png' rel='apple-touch-icon-precomposed' sizes='72x72'>
-    <meta content='Comic Book Day for iPhone and iPad. Never miss a release of your favorite comic book.' name='description'>
+    <meta content='Comic Book Day. Never miss a release of your favorite comic book.' name='description'>
     <meta content='width=device-width' name='viewport'>
     <meta content='app-id=788312005' name='apple-itunes-app'>
-    <script>
-      currentScreenshotIndex = 1;
-      previousScreenshot = null;
-      setInterval(alternateScreenshots, 5000);
-      
-      function alternateScreenshots()
-      {
-        newScreenshot = document.getElementById('screen'+currentScreenshotIndex);
-        if (previousScreenshot)
-          previousScreenshot.style.opacity = '0';
-        newScreenshot.style.opacity = '1';
-        previousScreenshot = newScreenshot;
-        currentScreenshotIndex ++;
-        if (currentScreenshotIndex > 4) 
-          currentScreenshotIndex = 1;
-      }
-    </script>
   </head>
   <body>
-    <header class='general'>
-      <nav>
-        <ul>
-          <li>
-            <a href='http://www.studioamanga.com/'>
-              <img alt='StdAMG' src='img/icon-amg.png?val'>
-              <span>Studio AMANgA</span>
-            </a>
-          </li>
-          <li>
-            <a href='http://www.studioamanga.com/contacts/'>
-              <img alt='Contacts' src='img/icon-contacts.png?va'>
-              <span>Contact[s]</span>
-            </a>
-          </li>
-          <li>
-            <a href='http://www.studioamanga.com/onelist/'>
-              <img alt='1List' src='img/icon-onelist.png?va'>
-              <span>1List</span>
-            </a>
-          </li>
-          <li>
-            <a href='http://www.studioamanga.com/wizbox/'>
-              <img alt='WizBox' src='img/icon-wizbox.png?va'>
-              <span>WizBox</span>
-            </a>
-          </li>
-        </ul>
-      </nav>
-    </header>
-    <header class='top'>
-      <img alt='Icon' class='icon' src='img/Icon-72-2x.png'>
-      <h1>Comic Book Day</h1>
-    </header>
-    <section id='main'>
-      <section id='screenshots'>
-        <img alt='iPhone' id='screen0' src='img/iphone-5.png'>
-        <img alt='Issue Screenshot' id='screen4' src='img/screen-4-ip5.png'>
-        <img alt='Volume Screenshot' id='screen3' src='img/screen-3-ip5.png'>
-        <img alt='Library Screenshot' id='screen2' src='img/screen-2-ip5.png'>
-        <img alt='Reading List Screenshot' id='screen1' src='img/screen-1-ip5.png'>
-      </section>
-      <section id='features'>
-        <header class='insert'>
-          <img alt='Icon' class='icon' src='img/Icon-72-2x.png'>
-          <h1>Comic Book Day</h1>
-        </header>
-        <h2>Never miss a release of your favorite comic book.</h2>
-        <p>“Comic Book Day” keeps track of the comic books you love. Simply manage your library, and receive a notification every time a new issue hits the stores.</p>
-        <p>
-          <ul>
-            <li>Import volumes directly from a database of more than 380,000 comic books, manga, and other international publications.</li>
-            <li>Organize the comic books you’ve already read, and know what to read next.</li>
-            <li>Share your favorite issues with your friends, and discover new books to love.</li>
-          </ul>
-        </p>
-        <p class='download'>
-          <a href='https://itunes.apple.com/app/comic-book-day/id788312005?mt=8'>
-            <img alt='Download on the App Store' src='img/download-appstore.svg'>
+    <nav class='general'>
+      <ul>
+        <li>
+          <a href='http://www.studioamanga.com/'>
+            <img alt='StdAMG' src='img/icon-amg.png'>
+            <span>Studio AMANgA</span>
           </a>
+        </li>
+        <li>
+          <a href='http://www.studioamanga.com/contacts/'>
+            <img alt='Contacts' src='img/icon-contacts.png'>
+            <span>Contact[s]</span>
+          </a>
+        </li>
+        <li>
+          <a href='http://www.studioamanga.com/onelist/'>
+            <img alt='1List' src='img/icon-onelist.png'>
+            <span>1List</span>
+          </a>
+        </li>
+        <li>
+          <a href='http://www.studioamanga.com/gameskeeper/'>
+            <img alt='Games Keeper' src='img/icon-gameskeeper.png'>
+            <span>Games Keeper</span>
+          </a>
+        </li>
+      </ul>
+    </nav>
+    <header class='top cropped-bottom'>
+      <div class='title'>
+        <img alt='Icon' class='icon' src='img/icon-72-2x.png'>
+        <h1>Comic Book Day</h1>
+      </div>
+      <div>
+        <img alt='Screens' class='showcase' src='img/screens.png'>
+      </div>
+    </header>
+    <section class='main'>
+      <div class='tagline'>
+        Never miss a release of your favorite comic book.
+      </div>
+      <div class='feature'>
+        <h3>Notifications</h3>
+        <img alt='Star' src='img/icon-star.png'>
+        <p>
+          Receive a notification every time a new issue comes out.
         </p>
-      </section>
+      </div>
+      <div class='feature'>
+        <h3>Keeping Track</h3>
+        <img alt='Star' src='img/icon-star.png'>
+        <p>
+          Organize the comic books you’ve already read, and know what to read next.
+        </p>
+      </div>
+      <div class='feature'>
+        <h3>Library</h3>
+        <img alt='Star' src='img/icon-star.png'>
+        <p>
+          Import volumes directly from a database of more than 380,000 comic books, manga, and other international publications.
+        </p>
+      </div>
+      <div class='feature'>
+        <h3>For Comic Book Lovers</h3>
+        <img alt='Star' src='img/icon-star.png'>
+        <p>
+          Share your favorite issues with your friends, and discover new books to love.
+        </p>
+      </div>
+      <p class='download'>
+        <a href='https://itunes.apple.com/app/comic-book-day/id788312005?mt=8'>
+          <img alt='Download on the App Store' src='img/download-appstore.svg'>
+        </a>
+      </p>
     </section>
+    <div class='screenshots'>
+      <img alt='Star' src='img/screen-reading.png'>
+      <img alt='Star' src='img/screen-volume.png'>
+      <img alt='Star' src='img/screen-characters.png'>
+      <img alt='Star' src='img/screen-alfred.png'>
+      <img alt='Star' src='img/screen-credits.png'>
+      <img alt='Star' src='img/screen-snyder.png'>
+    </div>
     <footer>
       <a href='http://www.studioamanga.com'>
-        <img alt='StdAMG' src='img/amgmini-white.png?val'>
+        <img alt='StdAMG' src='img/amgmini-black.png'>
       </a>
       <p>
         “Comic Book Day” for iPhone, iPad, and iPod touch
         <br>
         <a href='releasenotes'>Release Notes</a>
         /
-        <a href='http://www.studioamanga.com/comicbookday/comicbookday-presskit.zip'>PressKit</a>
+        <a href='comicbookday-presskit.zip'>PressKit</a>
         <br>
         Made by Studio AMANgA 2014-2015
       </p>
