@@ -46,9 +46,10 @@ header {
   background-color: #fc8200;
   color: white; }
   header.cropped-bottom {
-    padding-bottom: 0; }
+    padding-bottom: 0;
+    overflow: hidden; }
     header.cropped-bottom .showcase {
-      margin-bottom: -3px; }
+      margin-bottom: -6px; }
   header .title {
     padding-bottom: 20px; }
     header .title .icon,
