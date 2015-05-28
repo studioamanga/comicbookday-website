@@ -141,7 +141,8 @@ footer {
   section.main {
     max-width: inherit; }
     section.main .feature {
-      width: 90%; } }
+      width: inherit;
+      display: block; } }
 @media all and (max-width: 420px) {
   header .title h1 {
     display: block;
