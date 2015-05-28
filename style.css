@@ -83,7 +83,7 @@ section.main {
   section.main .feature {
     position: relative;
     display: inline-block;
-    max-width: 380px;
+    width: 380px;
     vertical-align: top;
     margin: 0 20px 20px 20px; }
     section.main .feature h3, section.main .feature p {
@@ -141,7 +141,7 @@ footer {
   section.main {
     max-width: inherit; }
     section.main .feature {
-      max-width: inherit; } }
+      width: 90%; } }
 @media all and (max-width: 420px) {
   header .title h1 {
     display: block;
