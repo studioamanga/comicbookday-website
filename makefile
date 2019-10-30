@@ -4,6 +4,7 @@ all:
 	cd ../../../Projects/iOS/comicbookday/
 	git pull
 	cd ../../../Web/amg/comicbookday/
+	cp ../../../Projects/iOS/comicbookday/releasenotes.html .
 	open .
 	open /Applications/Cyberduck.app
 
