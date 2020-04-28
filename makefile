@@ -1,9 +1,7 @@
 all:
 	haml -f html5 index.html.haml index.html
 	sass style.scss:style.css
-	cd ../../../Projects/iOS/comicbookday/
-	git pull
-	cd ../../../Web/amg/comicbookday/
+	git -C ../../../Projects/iOS/comicbookday/ pull
 	cp ../../../Projects/iOS/comicbookday/releasenotes.html .
 	open .
 	open /Applications/Cyberduck.app
