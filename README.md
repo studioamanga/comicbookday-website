@@ -1,5 +1,5 @@
 # Comic Book Day Website
 
-As seen on http://www.studioamanga.com/comicbookday/
+As seen on <https://www.studioamanga.com/comicbookday/>
 
-![screenshot](http://www.studioamanga.com/comicbookday/img/screen-2-ip5.png)
+![screenshot](https://www.studioamanga.com/comicbookday/img/screens.png)
