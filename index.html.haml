@@ -3,7 +3,7 @@
   %head
     %meta{:charset => "utf-8"}
     %title Comic Book Day for iPhone and iPad
-    %link{:rel => "stylesheet", :href => "style.css?re", :type => "text/css"}
+    %link{:rel => "stylesheet", :href => "style.css?nw", :type => "text/css"}
     %link{:rel => "canonical", :href => "https://www.studioamanga.com/comicbookday/"}
     %link{:rel => "shortcut icon", :href => "https://www.studioamanga.com/img/favicon.ico"}
     %meta{:name => "description", :content => "Comic Book Day. Never miss a release of your favorite comic book."}
@@ -11,11 +11,9 @@
     %meta{:name => "apple-itunes-app", :content => "app-id=788312005"}
   %body
     %nav.general
-      %ul
-        %li
-          %a{:href => "https://www.studioamanga.com/"}
-            %img{:alt => "StdAMG", :src => "img/icon-amg.png"}
-            %span Studio AMANgA
+      %a{:href => "https://www.studioamanga.com/"}
+        %img{:alt => "StdAMG", :src => "img/icon-amg.png"}
+        %span Studio AMANgA
 
     %header.top.cropped-bottom
       %div.title
@@ -25,35 +23,38 @@
         %img.showcase{:alt => "Screens", :src => "img/screens.png"}
 
     %section.main
-      %div.tagline
+      %p.tagline
         Never miss the latest issue of your favorite comic book.
-      %div.tagline
-        Featured by Apple on the Mac App Store: “Apps and Games We Love Right Now”.
-        
-      %div.feature
-        %h3 Keep Track
-        %img{:src => "img/icon-star.png", :alt => "Star"}
-        %p 
-          Organize the books you’ve already read, and know what to read next.
-      %div.feature
-        %h3 Get Notified
-        %img{:src => "img/icon-star.png", :alt => "Star"}
-        %p
-          Receive a notification every time a new issue comes out.
-      %div.feature
-        %h3 Discover
-        %img{:src => "img/icon-star.png", :alt => "Star"}
-        %p 
-          Import books directly from a database of more than 380,000 comic books, manga, and other international publications.
-      %div.feature
-        %h3 Anytime, Anywhere
-        %img{:src => "img/icon-star.png", :alt => "Star"}
-        %p 
-          The app is available on iPhone, iPad, and Mac. Your library is always synchronized.
+      %p.tagline
+        Featured by Apple on the Mac App Store:
+        %br
+        %q{:style => "font-style: italic; font-weight: normal;"} Apps and Games We Love Right Now
+
 
       %p.download
-        %a{:href => "https://itunes.apple.com/app/comic-book-day/id788312005?mt=8&at=1000lMiD"}
+        %a{:href => "https://apps.apple.com/app/comic-book-day/id788312005"}
           %img{:alt => "Download on the App Store", :src => "img/download-appstore.svg"}/
+        
+      %p
+        %strong Keep Track
+        %br
+        Organize the books you’ve already read, and know what to read next.
+      %p
+        %strong Get Notified
+        %br
+        Receive a notification every time a new issue comes out.
+      %p
+        %strong Discover
+        %br
+        Import books directly from a database of more than 380,000 comic books, manga, and other international publications.
+      %p
+        %strong Anytime, Anywhere
+        %br
+        The app is available on iPhone, iPad, and Mac. Your library is always synchronized with iCloud.
+
+      %p
+        %a{:href => "https://apps.apple.com/app/comic-book-day/id788312005"}
+          Download Comic Book Day for free on the App Store and Mac App Store.
 
     %div.screenshots
       %img{:src => "img/screen-readinglist-2x.png", :alt => "Reading List screenshot", :style => "width: 260px;"}
