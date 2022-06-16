@@ -3,6 +3,7 @@ all:
 	sass style.scss:style.css
 	git -C ~/Developer/comicbookday/ pull
 	cp ~/Developer/comicbookday/releasenotes.html .
+	cp ~/Developer/comicbookday/releasenotes.json .
 	open .
 	open /Applications/Cyberduck.app
 
