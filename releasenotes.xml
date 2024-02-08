@@ -1,0 +1,404 @@
+<?xml version="1.0"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Comic Book Day</title>
+    <link>https://www.studioamanga.com/comicbookday</link>
+    <description>Version history for Comic Book Day</description>
+    <generator>Trackup</generator>
+    <atom:link href="https://www.studioamanga.com/comicbookday/releasenotes.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>2.3.6</title>
+      <description>• Improve issue details layout on large screens
+• Open contact composer with default mail client</description>
+      <pubDate>Wed, 07 Feb 2024 00:00:00 GMT</pubDate>
+      <guid>https://www.studioamanga.com/comicbookday/2.3.6</guid>
+    </item>
+    <item>
+      <title>2.3.5</title>
+      <description>• Optimized for iOS 17, iPadOS 17, and macOS 14
+• Updated settings icons (iOS)
+• Remove legacy widget
+• Remove Twitter links</description>
+      <pubDate>Fri, 15 Sep 2023 00:00:00 GMT</pubDate>
+      <guid>https://www.studioamanga.com/comicbookday/2.3.5</guid>
+    </item>
+    <item>
+      <title>2.3.4</title>
+      <description>• Optimized for iPadOS 16 and macOS 13
+• Add Select Items menu action
+• Fix app icon shortcuts navigation</description>
+      <pubDate>Sat, 05 Nov 2022 00:00:00 GMT</pubDate>
+      <guid>https://www.studioamanga.com/comicbookday/2.3.4</guid>
+    </item>
+    <item>
+      <title>2.3.3</title>
+      <description>• Optimized for iOS 16
+• Select multiple issues to mark as read/not read (iOS, iPadOS)</description>
+      <pubDate>Sat, 17 Sep 2022 00:00:00 GMT</pubDate>
+      <guid>https://www.studioamanga.com/comicbookday/2.3.3</guid>
+    </item>
+    <item>
+      <title>2.3.2</title>
+      <description>• Add version history
+• Remove background refresh and app icon badge settings
+• Fix About window (macOS)</description>
+      <pubDate>Thu, 16 Jun 2022 00:00:00 GMT</pubDate>
+      <guid>https://www.studioamanga.com/comicbookday/2.3.2</guid>
+    </item>
+    <item>
+      <title>2.3.1</title>
+      <description>• Update “Add Comic Books” suggestions</description>
+      <pubDate>Thu, 10 Mar 2022 00:00:00 GMT</pubDate>
+      <guid>https://www.studioamanga.com/comicbookday/2.3.1</guid>
+    </item>
+    <item>
+      <title>2.3</title>
+      <description>• Optimized for iOS 15, iPadOS 15, and macOS 12
+• Update tab icons style</description>
+      <pubDate>Tue, 16 Nov 2021 00:00:00 GMT</pubDate>
+      <guid>https://www.studioamanga.com/comicbookday/2.3</guid>
+    </item>
+    <item>
+      <title>2.2.1</title>
+      <description>• Update Add Comic Books screen search bar
+• Update Reading List screen section headers
+• Update Library screen titles
+• Update action menus (iOS 14)
+• Improve Dynamic Type support</description>
+      <pubDate>Fri, 07 May 2021 00:00:00 GMT</pubDate>
+      <guid>https://www.studioamanga.com/comicbookday/2.2.1</guid>
+    </item>
+    <item>
+      <title>2.2</title>
+      <description>• Preview widget with user data (iOS)
+• Update Settings icon (iOS)
+• **Optimized for macOS Big Sur** (macOS)
+• Add Notification Center widget (macOS)
+• Replace tab bar with window toolbar (macOS)
+• Move Settings to menu (macOS)
+• Fix app icon badge (macOS)</description>
+      <pubDate>Fri, 20 Nov 2020 00:00:00 GMT</pubDate>
+      <guid>https://www.studioamanga.com/comicbookday/2.2</guid>
+    </item>
+    <item>
+      <title>2.1</title>
+      <description>• Optimized for iOS 14
+• New Home Screen widget (iOS 14)
+• Add “Add Comic Books” button on Reading List
+• Update “Add Comic Books” suggestions
+• Improve search error messages</description>
+      <pubDate>Mon, 28 Sep 2020 00:00:00 GMT</pubDate>
+      <guid>https://www.studioamanga.com/comicbookday/2.1</guid>
+    </item>
+    <item>
+      <title>2.0</title>
+      <description>• macOS version
+• iCloud sync
+• Tab bar interface
+• Non blocking loading interface for Credits and Characters screens
+• Remove Peek and Pop preview
+• Remove import/export database
+• Requires iOS 13</description>
+      <pubDate>Tue, 08 Sep 2020 00:00:00 GMT</pubDate>
+      <guid>https://www.studioamanga.com/comicbookday/2.0</guid>
+    </item>
+    <item>
+      <title>1.12.5</title>
+      <description>• Update import suggestions
+• Add Reading List context menu
+• Improve Dynamic Type support
+• Remove UIWebView dependency
+• Remove network activity indicator</description>
+      <pubDate>Mon, 27 Apr 2020 00:00:00 GMT</pubDate>
+      <guid>https://www.studioamanga.com/comicbookday/1.12.5</guid>
+    </item>
+    <item>
+      <title>1.12.4</title>
+      <description>• Save Add Volume sort option
+• Register for notifications with provisional authorization</description>
+      <pubDate>Wed, 12 Feb 2020 00:00:00 GMT</pubDate>
+      <guid>https://www.studioamanga.com/comicbookday/1.12.4</guid>
+    </item>
+    <item>
+      <title>1.12.3</title>
+      <description>• Improve sync reliability</description>
+      <pubDate>Wed, 06 Nov 2019 00:00:00 GMT</pubDate>
+      <guid>https://www.studioamanga.com/comicbookday/1.12.3</guid>
+    </item>
+    <item>
+      <title>1.12.2</title>
+      <description>• Improve sync error diagnosis</description>
+      <pubDate>Wed, 23 Oct 2019 00:00:00 GMT</pubDate>
+      <guid>https://www.studioamanga.com/comicbookday/1.12.2</guid>
+    </item>
+    <item>
+      <title>1.12.1</title>
+      <description>• Improve Dark Mode support
+• Update About screen</description>
+      <pubDate>Tue, 15 Oct 2019 00:00:00 GMT</pubDate>
+      <guid>https://www.studioamanga.com/comicbookday/1.12.1</guid>
+    </item>
+    <item>
+      <title>1.12</title>
+      <description>• Optimized for iOS 13
+• Dark Mode support (iOS 13)
+• SF Symbols (iOS 13)
+• Update Settings, About screens
+• Require iOS 10</description>
+      <pubDate>Wed, 25 Sep 2019 00:00:00 GMT</pubDate>
+      <guid>https://www.studioamanga.com/comicbookday/1.12</guid>
+    </item>
+    <item>
+      <title>1.11.4</title>
+      <description>• Display read date on Issue screen
+• Fix text wrapping on Reading List</description>
+      <pubDate>Tue, 21 Aug 2018 00:00:00 GMT</pubDate>
+      <guid>https://www.studioamanga.com/comicbookday/1.11.4</guid>
+    </item>
+    <item>
+      <title>1.11.3</title>
+      <description>• Add Drag and Drop support on Reading List
+• Fix share issue with missing cover image
+• Fix crash when saving images (iOS 11)</description>
+      <pubDate>Thu, 15 Feb 2018 00:00:00 GMT</pubDate>
+      <guid>https://www.studioamanga.com/comicbookday/1.11.3</guid>
+    </item>
+    <item>
+      <title>1.11.2</title>
+      <description>• New search bar layout on Add Comic Books screen
+• Add 2 issue covers on Library screen for regular size screen
+• Fix layout when no authors or duplicate authors on Issue screen
+• Add button to add comic books on Reading List placeholder view
+• Update placeholder view to resize automatically
+• Draggable cover image, title, and description on Issue screen</description>
+      <pubDate>Wed, 13 Dec 2017 00:00:00 GMT</pubDate>
+      <guid>https://www.studioamanga.com/comicbookday/1.11.2</guid>
+    </item>
+    <item>
+      <title>1.11.1</title>
+      <description>• Fix layout for iPhone X
+• Move Love and Help screens content to Settings screen
+• Resize Reading List items size dynamically
+• Add haptic feedback when marking as read
+• Improve inverted colors support</description>
+      <pubDate>Thu, 30 Nov 2017 00:00:00 GMT</pubDate>
+      <guid>https://www.studioamanga.com/comicbookday/1.11.1</guid>
+    </item>
+    <item>
+      <title>1.11</title>
+      <description>• Update interface for iOS 11
+• Remove custom screen transitions
+• Require iOS 9</description>
+      <pubDate>Thu, 21 Sep 2017 00:00:00 GMT</pubDate>
+      <guid>https://www.studioamanga.com/comicbookday/1.11</guid>
+    </item>
+    <item>
+      <title>1.10.3</title>
+      <description>• Rename “Review on iTunes” to “Review on the App Store”
+• Open Twitter profile for “Follow us on Twitter”
+• Fix year sorting in History header
+• Fix blocking sync error when fetching issues
+• Fix HUD display and resizing animation</description>
+      <pubDate>Tue, 20 Jun 2017 00:00:00 GMT</pubDate>
+      <guid>https://www.studioamanga.com/comicbookday/1.10.3</guid>
+    </item>
+    <item>
+      <title>1.10.2</title>
+      <description>• Improve sync error message for error 404</description>
+      <pubDate>Tue, 13 Jun 2017 00:00:00 GMT</pubDate>
+      <guid>https://www.studioamanga.com/comicbookday/1.10.2</guid>
+    </item>
+    <item>
+      <title>1.10.1</title>
+      <description>• Save and Restore Library Database
+• New notifications framework with text preview
+• Export library as CSV file with Share screen (UIActivityViewController)
+• Fix number of issues value in Archives
+• Fix footnote parsing in issues description (“list of covers...”)
+• Fix Share screen (UIActivityViewController) presentation on iPad</description>
+      <pubDate>Wed, 17 May 2017 00:00:00 GMT</pubDate>
+      <guid>https://www.studioamanga.com/comicbookday/1.10.1</guid>
+    </item>
+    <item>
+      <title>1.10</title>
+      <description>• Ability to skip issues in a volume
+• Swipe in reading list to mark as read/unread</description>
+      <pubDate>Thu, 09 Feb 2017 00:00:00 GMT</pubDate>
+      <guid>https://www.studioamanga.com/comicbookday/1.10</guid>
+    </item>
+    <item>
+      <title>1.9.6</title>
+      <description>• Crash when sharing issue and saving image
+• Stats in History (number of comic books read by year)</description>
+      <pubDate>Tue, 10 Jan 2017 00:00:00 GMT</pubDate>
+      <guid>https://www.studioamanga.com/comicbookday/1.9.6</guid>
+    </item>
+    <item>
+      <title>1.9.5</title>
+      <description>• Fix cover layout in Library for series with missing issues</description>
+      <pubDate>Mon, 21 Nov 2016 00:00:00 GMT</pubDate>
+      <guid>https://www.studioamanga.com/comicbookday/1.9.5</guid>
+    </item>
+    <item>
+      <title>1.9.4</title>
+      <description>• Built with iOS 10 SDK
+• Update Today Widget for iOS 10</description>
+      <pubDate>Mon, 19 Sep 2016 00:00:00 GMT</pubDate>
+      <guid>https://www.studioamanga.com/comicbookday/1.9.4</guid>
+    </item>
+    <item>
+      <title>1.9.3</title>
+      <description>• Sort issues in ascending order for archives series
+• Minor bug fixes</description>
+      <pubDate>Wed, 22 Jun 2016 00:00:00 GMT</pubDate>
+      <guid>https://www.studioamanga.com/comicbookday/1.9.3</guid>
+    </item>
+    <item>
+      <title>1.9.2</title>
+      <description>• Updated App Transport Security (ATS) configuration for new ComicVine domain
+• Updated error alerts to non-blocking messages
+• Fixed crash when trying to display missing volume in library</description>
+      <pubDate>Thu, 11 Feb 2016 00:00:00 GMT</pubDate>
+      <guid>https://www.studioamanga.com/comicbookday/1.9.2</guid>
+    </item>
+    <item>
+      <title>1.9.1</title>
+      <description>• Fixed app launch on iOS 8</description>
+      <pubDate>Fri, 13 Nov 2015 00:00:00 GMT</pubDate>
+      <guid>https://www.studioamanga.com/comicbookday/1.9.1</guid>
+    </item>
+    <item>
+      <title>1.9</title>
+      <description>• Added Quick Actions
+• Added Peek and Pop support
+• Updated search engine to show more search results
+• Switched to WKWebView for characters/credits details
+• Switched to Safari View Controller for credits websites</description>
+      <pubDate>Thu, 05 Nov 2015 00:00:00 GMT</pubDate>
+      <guid>https://www.studioamanga.com/comicbookday/1.9</guid>
+    </item>
+    <item>
+      <title>1.8</title>
+      <description>• Optimized for iOS 9
+• Added Spotlight support for comic book issues
+• New icon
+• Removed redundant ComicVine buttons
+• Migrated database to shared group
+• Switched to UISearchController
+• Now requires iOS 8</description>
+      <pubDate>Sun, 27 Sep 2015 00:00:00 GMT</pubDate>
+      <guid>https://www.studioamanga.com/comicbookday/1.8</guid>
+    </item>
+    <item>
+      <title>1.7</title>
+      <description>• Added Characters
+• Added authors details in credits
+• Added link to authors personal website in credits
+• Improved progress HUD for credits
+• Improved credits avatar rendering
+• Improved This Week widget when there’s no new item
+• Removed custom crash reporting
+• Removed legacy beta distribution framework</description>
+      <pubDate>Fri, 17 Apr 2015 00:00:00 GMT</pubDate>
+      <guid>https://www.studioamanga.com/comicbookday/1.7</guid>
+    </item>
+    <item>
+      <title>1.6.3</title>
+      <description>• Improved performance for large libraries</description>
+      <pubDate>Wed, 04 Mar 2015 00:00:00 GMT</pubDate>
+      <guid>https://www.studioamanga.com/comicbookday/1.6.3</guid>
+    </item>
+    <item>
+      <title>1.6.2</title>
+      <description>• Fixed mark imported issues as notified</description>
+      <pubDate>Sat, 21 Feb 2015 00:00:00 GMT</pubDate>
+      <guid>https://www.studioamanga.com/comicbookday/1.6.2</guid>
+    </item>
+    <item>
+      <title>1.6.1</title>
+      <description>• Fixed unreliable search results</description>
+      <pubDate>Mon, 03 Nov 2014 00:00:00 GMT</pubDate>
+      <guid>https://www.studioamanga.com/comicbookday/1.6.1</guid>
+    </item>
+    <item>
+      <title>1.6</title>
+      <description>• Added “This Week” Widget
+• Added landscape mode on iPhone
+• Fixed iOS 8 notification permission
+• Fixed refresh archived volumes</description>
+      <pubDate>Fri, 24 Oct 2014 00:00:00 GMT</pubDate>
+      <guid>https://www.studioamanga.com/comicbookday/1.6</guid>
+    </item>
+    <item>
+      <title>1.5</title>
+      <description>• Optimized for iOS 8
+• Optimized for iPhone 6 and iPhone 6 Plus
+• Added library search bar
+• Added search results sort options
+• Fixed refresh current issue after update</description>
+      <pubDate>Fri, 03 Oct 2014 00:00:00 GMT</pubDate>
+      <guid>https://www.studioamanga.com/comicbookday/1.5</guid>
+    </item>
+    <item>
+      <title>1.4.1</title>
+      <description>• Added CSV export
+• Fixed missing dates display</description>
+      <pubDate>Wed, 16 Jul 2014 00:00:00 GMT</pubDate>
+      <guid>https://www.studioamanga.com/comicbookday/1.4.1</guid>
+    </item>
+    <item>
+      <title>1.4</title>
+      <description>• Added Reading History</description>
+      <pubDate>Mon, 07 Jul 2014 00:00:00 GMT</pubDate>
+      <guid>https://www.studioamanga.com/comicbookday/1.4</guid>
+    </item>
+    <item>
+      <title>1.3.1</title>
+      <description>• Added search suggestions
+• Improved library layout
+• Updated icon for volume view controller
+• Fixed badge number for upcoming issues</description>
+      <pubDate>Sun, 06 Jul 2014 00:00:00 GMT</pubDate>
+      <guid>https://www.studioamanga.com/comicbookday/1.3.1</guid>
+    </item>
+    <item>
+      <title>1.3</title>
+      <description>• iPad version</description>
+      <pubDate>Wed, 14 May 2014 00:00:00 GMT</pubDate>
+      <guid>https://www.studioamanga.com/comicbookday/1.3</guid>
+    </item>
+    <item>
+      <title>1.2.1</title>
+      <description>• Refined layout
+• Bug fixes</description>
+      <pubDate>Tue, 29 Apr 2014 00:00:00 GMT</pubDate>
+      <guid>https://www.studioamanga.com/comicbookday/1.2.1</guid>
+    </item>
+    <item>
+      <title>1.2</title>
+      <description>• Added Archives
+• Animated check action
+• Updated interface with checkmarks on read issues
+• Updated single issue refresh cycle</description>
+      <pubDate>Tue, 25 Mar 2014 00:00:00 GMT</pubDate>
+      <guid>https://www.studioamanga.com/comicbookday/1.2</guid>
+    </item>
+    <item>
+      <title>1.1</title>
+      <description>• Added Credits
+• Updated notifications to open related issue
+• Fixed display for issues with unknown publication date
+• Fixed blocking progress HUD
+• Fixed upcoming issues in Reading List</description>
+      <pubDate>Sat, 22 Feb 2014 00:00:00 GMT</pubDate>
+      <guid>https://www.studioamanga.com/comicbookday/1.1</guid>
+    </item>
+    <item>
+      <title>1.0</title>
+      <description>• Initial release</description>
+      <pubDate>Wed, 05 Feb 2014 00:00:00 GMT</pubDate>
+      <guid>https://www.studioamanga.com/comicbookday/1.0</guid>
+    </item>
+  </channel>
+</rss>
+
